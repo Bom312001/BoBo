@@ -175,7 +175,9 @@ export default function Home() {
                 }
               }
             }}
-            placeholder="Nhập câu..."
+            placeholder={
+              swapMode ? "Nhập câu tiếng Trung..." : "Nhập câu tiếng Việt..."
+            }
             className="px-4 py-2 border rounded-lg w-80 text-center"
           />
           <button
