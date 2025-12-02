@@ -1,65 +1,264 @@
-import Image from "next/image";
+"use client";
+
+import { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import sentences from "./data/sentences.json";
+
+type Sentence = {
+  zh: string;
+  vi: string;
+};
+
+function shuffleArray<T>(array: T[]): T[] {
+  return [...array].sort(() => Math.random() - 0.5);
+}
 
 export default function Home() {
+  const [queue, setQueue] = useState<number[]>([]);
+  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+  const [showTranslation, setShowTranslation] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [started, setStarted] = useState(false);
+
+  const [userInput, setUserInput] = useState("");
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+
+  // Swap mode: false = Trung → Việt, true = Việt → Trung
+  const [swapMode, setSwapMode] = useState(false);
+
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const startGame = () => {
+    const shuffled = shuffleArray(
+      Array.from({ length: sentences.length }, (_, i) => i)
+    );
+    const [first, ...rest] = shuffled;
+    setQueue(rest);
+    setCurrentIndex(first);
+    setShowTranslation(false);
+    setShowModal(false);
+    setStarted(true);
+    setUserInput("");
+    setIsCorrect(null);
+    setTimeout(() => inputRef.current?.focus(), 0);
+  };
+
+  const nextSentence = () => {
+    if (queue.length === 0) {
+      setCurrentIndex(null);
+      return;
+    }
+    const [first, ...rest] = queue;
+    setCurrentIndex(first);
+    setQueue(rest);
+    setShowTranslation(false);
+    setUserInput("");
+    setIsCorrect(null);
+    setTimeout(() => inputRef.current?.focus(), 0);
+  };
+
+  const handleClick = () => {
+    if (currentIndex === null && !started) {
+      startGame();
+    } else if (!showTranslation) {
+      setShowTranslation(true);
+    } else {
+      nextSentence();
+    }
+  };
+
+  const skipSentence = () => nextSentence();
+
+  const currentSentence =
+    currentIndex !== null ? (sentences as Sentence[])[currentIndex] : null;
+
+  const finished = started && queue.length === 0 && currentIndex === null;
+
+  useEffect(() => {
+    if (!finished) return;
+    setTimeout(() => setShowModal(true), 0);
+  }, [finished]);
+
+  // Check answer logic (không phân biệt hoa thường)
+  const checkAnswer = () => {
+    if (!currentSentence) return;
+
+    const correctAnswer = swapMode ? currentSentence.zh : currentSentence.vi;
+
+    if (userInput.trim().toLowerCase() === correctAnswer.trim().toLowerCase()) {
+      setIsCorrect(true);
+    } else {
+      setIsCorrect(false);
+    }
+  };
+
+  const displayedQuestion = () => {
+    if (!currentSentence) return "";
+
+    // Chưa show nghĩa → hiển thị đề bài
+    if (!showTranslation) {
+      return swapMode ? currentSentence.vi : currentSentence.zh;
+    }
+
+    // Đã show nghĩa → hiển thị đáp án
+    return swapMode ? currentSentence.zh : currentSentence.vi;
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50 relative">
+      <h1 className="text-3xl font-bold mb-6">
+        🥑🥑🥑 Kiểm tra nghĩa câu 🥑🥑🥑
+      </h1>
+
+      {/* Swap button */}
+      <div className="mb-4">
+        <button
+          onClick={() => setSwapMode(!swapMode)}
+          className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition"
+        >
+          Swap: {swapMode ? "Việt → Trung" : "Trung → Việt"}
+        </button>
+      </div>
+
+      {started && !finished && (
+        <div>
+          <p className="text-gray-500 text-sm mt-2">
+            Còn lại: {queue.length + (currentIndex !== null ? 1 : 0)} câu
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      )}
+
+      <div className="p-6 bg-white rounded-2xl shadow-md min-w-96 text-center">
+        {currentSentence ? (
+          <p
+            className={`text-2xl font-normal ${
+              showTranslation ? "text-green-600" : "text-gray-800"
+            }`}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            {displayedQuestion()}
+          </p>
+        ) : !finished ? (
+          <p className="text-gray-500 text-2xl">
+            Click nút bên dưới để bắt đầu nạ
+          </p>
+        ) : null}
+      </div>
+
+      {/* Input */}
+      {currentSentence && (
+        <div className="mt-4 flex flex-col items-center">
+          <input
+            ref={inputRef}
+            type="text"
+            value={userInput}
+            onChange={(e) => setUserInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+
+                // Nếu chưa check hoặc sai → checkAnswer
+                if (isCorrect !== true) {
+                  if (userInput.trim() === "") {
+                    inputRef.current?.focus();
+                    return;
+                  }
+                  checkAnswer();
+                  return;
+                }
+
+                // Nếu đã đúng → chuyển hành động tiếp theo
+                if (!showTranslation) {
+                  setShowTranslation(true);
+                } else {
+                  nextSentence();
+                  setTimeout(() => inputRef.current?.focus(), 0);
+                }
+              }
+            }}
+            placeholder="Nhập câu..."
+            className="px-4 py-2 border rounded-lg w-80 text-center"
+          />
+          <button
+            onClick={checkAnswer}
+            className="mt-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
           >
-            Documentation
-          </a>
+            Kiểm tra
+          </button>
+
+          {isCorrect === true && (
+            <p className="text-green-600 mt-2 text-xl">✅ Chính xác!</p>
+          )}
+          {isCorrect === false && (
+            <p className="text-red-600 mt-2 text-xl">❌ Sai rồi, thử lại!</p>
+          )}
         </div>
-      </main>
-    </div>
+      )}
+
+      <div className="flex gap-4 mt-6">
+        {!finished ? (
+          <>
+            <button
+              onClick={handleClick}
+              className="px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700 transition cursor-pointer"
+            >
+              {currentIndex === null && !started
+                ? "Bắt đầu"
+                : !showTranslation
+                ? "Xem nghĩa"
+                : "Tiếp tục"}
+            </button>
+
+            {currentIndex !== null && (
+              <button
+                onClick={skipSentence}
+                className="px-6 py-3 rounded-xl bg-gray-500 text-white font-semibold hover:bg-gray-600 transition cursor-pointer"
+              >
+                Bỏ qua
+              </button>
+            )}
+          </>
+        ) : (
+          <button
+            onClick={startGame}
+            className="px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition cursor-pointer"
+          >
+            Reset
+          </button>
+        )}
+      </div>
+
+      {/* Modal */}
+      <AnimatePresence>
+        {showModal && (
+          <motion.div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="bg-white p-8 rounded-2xl shadow-2xl text-center max-w-md"
+              initial={{ scale: 0.8, opacity: 0, y: 50 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.8, opacity: 0, y: 50 }}
+              transition={{ duration: 0.4 }}
+            >
+              <h2 className="text-2xl font-bold text-green-600 mb-4">
+                🎉 Hoàn thành hết các câu!
+              </h2>
+              <p className="text-gray-700 mb-6">
+                Hãy ấn Reset để luyện lại từ đầu nạ.
+              </p>
+              <button
+                onClick={startGame}
+                className="px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition cursor-pointer"
+              >
+                Reset
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </main>
   );
 }
