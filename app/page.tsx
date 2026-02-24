@@ -7,6 +7,7 @@ import sentences from "./data/sentences.json";
 type Sentence = {
   zh: string;
   vi: string;
+  pinyin: string;
 };
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -79,13 +80,22 @@ export default function Home() {
     setTimeout(() => setShowModal(true), 0);
   }, [finished]);
 
-  // Check answer logic (không phân biệt hoa thường)
+  // 🔥 Hàm chuẩn hóa để bỏ dấu câu cuối câu
+  const normalize = (text: string) => {
+    return text
+      .trim()
+      .replace(/[.!?。！？]+$/gu, "") // bỏ mọi dấu câu cuối câu
+      .replace(/\s+/g, " ") // bỏ nhiều khoảng trắng dư
+      .toLowerCase();
+  };
+
+  // Check answer logic
   const checkAnswer = () => {
     if (!currentSentence) return;
 
     const correctAnswer = swapMode ? currentSentence.zh : currentSentence.vi;
 
-    if (userInput.trim().toLowerCase() === correctAnswer.trim().toLowerCase()) {
+    if (normalize(userInput) === normalize(correctAnswer)) {
       setIsCorrect(true);
     } else {
       setIsCorrect(false);
@@ -95,12 +105,10 @@ export default function Home() {
   const displayedQuestion = () => {
     if (!currentSentence) return "";
 
-    // Chưa show nghĩa → hiển thị đề bài
     if (!showTranslation) {
       return swapMode ? currentSentence.vi : currentSentence.zh;
     }
 
-    // Đã show nghĩa → hiển thị đáp án
     return swapMode ? currentSentence.zh : currentSentence.vi;
   };
 
@@ -110,7 +118,6 @@ export default function Home() {
         🥑🥑🥑 Kiểm tra nghĩa câu 🥑🥑🥑
       </h1>
 
-      {/* Swap button */}
       <div className="mb-4">
         <button
           onClick={() => setSwapMode(!swapMode)}
@@ -130,13 +137,22 @@ export default function Home() {
 
       <div className="p-6 bg-white rounded-2xl shadow-md min-w-96 text-center">
         {currentSentence ? (
-          <p
-            className={`text-2xl font-normal ${
-              showTranslation ? "text-green-600" : "text-gray-800"
-            }`}
-          >
-            {displayedQuestion()}
-          </p>
+          <div className="text-center">
+            <p
+              className={`text-2xl font-normal ${
+                showTranslation ? "text-green-600" : "text-gray-800"
+              }`}
+            >
+              {displayedQuestion()}
+            </p>
+
+            {/* Hiển thị pinyin khi đã xem nghĩa hoặc trả lời đúng */}
+            {(showTranslation || isCorrect === true) && currentSentence && (
+              <p className="text-gray-500 mt-2 text-lg italic">
+                {currentSentence.pinyin}
+              </p>
+            )}
+          </div>
         ) : !finished ? (
           <p className="text-gray-500 text-2xl">
             Click nút bên dưới để bắt đầu nạ
@@ -144,7 +160,6 @@ export default function Home() {
         ) : null}
       </div>
 
-      {/* Input */}
       {currentSentence && (
         <div className="mt-4 flex flex-col items-center">
           <input
@@ -156,7 +171,6 @@ export default function Home() {
               if (e.key === "Enter") {
                 e.preventDefault();
 
-                // Nếu chưa check hoặc sai → checkAnswer
                 if (isCorrect !== true) {
                   if (userInput.trim() === "") {
                     inputRef.current?.focus();
@@ -166,7 +180,6 @@ export default function Home() {
                   return;
                 }
 
-                // Nếu đã đúng → chuyển hành động tiếp theo
                 if (!showTranslation) {
                   setShowTranslation(true);
                 } else {
@@ -229,7 +242,6 @@ export default function Home() {
         )}
       </div>
 
-      {/* Modal */}
       <AnimatePresence>
         {showModal && (
           <motion.div
