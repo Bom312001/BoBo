@@ -1,752 +1,514 @@
 [
-  {
-    "zh": "请你帮我吧。",
-    "vi": "Xin bạn giúp tôi nhé.",
-    "pinyin": "Qǐng nǐ bāng wǒ ba."
-  },
-  {
-    "zh": "他的白色衬衫很漂亮。",
-    "vi": "Áo sơ mi trắng của anh ấy rất đẹp.",
-    "pinyin": "Tā de báisè chènshān hěn piàoliang."
-  },
-  {
-    "zh": "我们要买一百个苹果。",
-    "vi": "Chúng tôi muốn mua một trăm quả táo.",
-    "pinyin": "Wǒmen yào mǎi yī bǎi gè píngguǒ."
-  },
-  {
-    "zh": "请你帮忙翻译这篇文章。",
-    "vi": "Xin bạn giúp dịch bài viết này.",
-    "pinyin": "Qǐng nǐ bāngmáng fānyì zhè piān wénzhāng."
-  },
-  {
-    "zh": "我每天都看报纸。",
-    "vi": "Tôi đọc báo mỗi ngày.",
-    "pinyin": "Wǒ měitiān dōu kàn bàozhǐ."
-  },
-  {
-    "zh": "我的家比你的家大。",
-    "vi": "Nhà của tôi lớn hơn nhà của bạn.",
-    "pinyin": "Wǒ de jiā bǐ nǐ de jiā dà."
-  },
-  {
-    "zh": "别忘带钥匙。",
-    "vi": "Đừng quên mang theo chìa khóa.",
-    "pinyin": "Bié wàng dài yàoshi."
-  },
-  {
-    "zh": "她的头发很长。",
-    "vi": "Tóc của cô ấy rất dài.",
-    "pinyin": "Tā de tóufǎ hěn cháng."
-  },
-  {
-    "zh": "我喜欢唱歌。",
-    "vi": "Tôi thích hát.",
-    "pinyin": "Wǒ xǐhuān chànggē."
-  },
-  {
-    "zh": "我们出去玩吧。",
-    "vi": "Chúng ta ra ngoài chơi đi.",
-    "pinyin": "Wǒmen chūqù wán ba."
-  },
-  {
-    "zh": "你穿的衣服很漂亮。",
-    "vi": "Quần áo bạn mặc rất đẹp.",
-    "pinyin": "Nǐ chuān de yīfú hěn piàoliang."
-  },
-  {
-    "zh": "他坐在船上。",
-    "vi": "Anh ấy ngồi trên thuyền.",
-    "pinyin": "Tā zuò zài chuán shàng."
-  },
-  {
-    "zh": "这是我第一次来这里。",
-    "vi": "Đây là lần đầu tiên tôi đến đây.",
-    "pinyin": "Zhè shì wǒ dì yī cì lái zhèlǐ."
-  },
-  {
-    "zh": "他从早上工作到晚上。",
-    "vi": "Anh ấy làm việc từ sáng đến tối.",
-    "pinyin": "Tā cóng zǎoshang gōngzuò dào wǎnshang."
-  },
-  {
-    "zh": "他做错了一个题。",
-    "vi": "Anh ấy đã làm sai một bài tập.",
-    "pinyin": "Tā zuò cuò le yī gè tí."
-  },
-  {
-    "zh": "他打篮球打得很好。",
-    "vi": "Anh ấy chơi bóng rổ rất giỏi.",
-    "pinyin": "Tā dǎ lánqiú dǎ de hěn hǎo."
-  },
-  {
-    "zh": "大家都很高兴。",
-    "vi": "Mọi người đều rất vui.",
-    "pinyin": "Dàjiā dōu hěn gāoxìng."
-  },
-  {
-    "zh": "我想去，但是没有时间。",
-    "vi": "Tôi muốn đi, nhưng không có thời gian.",
-    "pinyin": "Wǒ xiǎng qù, dànshì méiyǒu shíjiān."
-  },
-  {
-    "zh": "我们今天到学校了。",
-    "vi": "Hôm nay chúng tôi đã đến trường.",
-    "pinyin": "Wǒmen jīntiān dào xuéxiào le."
-  },
-  {
-    "zh": "你得努力学习。",
-    "vi": "Bạn phải cố gắng học.",
-    "pinyin": "Nǐ děi nǔlì xuéxí."
-  },
-  {
-    "zh": "我们等你来。",
-    "vi": "Chúng tôi đợi bạn đến.",
-    "pinyin": "Wǒmen děng nǐ lái."
-  },
-  {
-    "zh": "弟弟在玩玩具。",
-    "vi": "Em trai đang chơi đồ chơi.",
-    "pinyin": "Dìdì zài wán wánjù."
-  },
-  {
-    "zh": "他是第一名。",
-    "vi": "Anh ấy là người đứng đầu.",
-    "pinyin": "Tā shì dì yī míng."
-  },
-  {
-    "zh": "我不懂这个问题。",
-    "vi": "Tôi không hiểu vấn đề này.",
-    "pinyin": "Wǒ bù dǒng zhège wèntí."
-  },
-  {
-    "zh": "你对我很好。",
-    "vi": "Bạn đối xử tốt với tôi.",
-    "pinyin": "Nǐ duì wǒ hěn hǎo."
-  },
-  {
-    "zh": "房间里很安静。",
-    "vi": "Trong phòng rất yên tĩnh.",
-    "pinyin": "Fángjiān lǐ hěn ānjìng."
-  },
-  {
-    "zh": "这道菜非常好吃。",
-    "vi": "Món ăn này rất ngon.",
-    "pinyin": "Zhè dào cài fēicháng hǎochī."
-  },
-  {
-    "zh": "服务员请帮忙。",
-    "vi": "Nhân viên phục vụ, xin giúp đỡ.",
-    "pinyin": "Fúwùyuán qǐng bāngmáng."
-  },
-  {
-    "zh": "他很高。",
-    "vi": "Anh ấy rất cao.",
-    "pinyin": "Tā hěn gāo."
-  },
-  {
-    "zh": "请告诉我答案。",
-    "vi": "Xin cho tôi biết đáp án.",
-    "pinyin": "Qǐng gàosù wǒ dá'àn."
-  },
-  {
-    "zh": "哥哥在家里。",
-    "vi": "Anh trai đang ở nhà.",
-    "pinyin": "Gēge zài jiālǐ."
-  },
-  {
-    "zh": "请给我一本书。",
-    "vi": "Xin hãy đưa cho tôi một cuốn sách.",
-    "pinyin": "Qǐng gěi wǒ yī běn shū."
-  },
-  {
-    "zh": "公共汽车很方便。",
-    "vi": "Xe buýt rất tiện lợi.",
-    "pinyin": "Gōnggòng qìchē hěn fāngbiàn."
-  },
-  {
-    "zh": "这个包十公斤。",
-    "vi": "Cái túi này mười kilogram.",
-    "pinyin": "Zhège bāo shí gōngjīn."
-  },
-  {
-    "zh": "我在公司工作。",
-    "vi": "Tôi làm việc ở công ty.",
-    "pinyin": "Wǒ zài gōngsī gōngzuò."
-  },
-  {
-    "zh": "这件衣服很贵。",
-    "vi": "Cái áo này rất đắt.",
-    "pinyin": "Zhè jiàn yīfú hěn guì."
-  },
-  {
-    "zh": "请过安检门。",
-    "vi": "Mời đi qua cửa an ninh.",
-    "pinyin": "Qǐng guò ānjiǎn mén."
-  },
-  {
-    "zh": "我还想要一杯水。",
-    "vi": "Tôi còn muốn một cốc nước.",
-    "pinyin": "Wǒ hái xiǎng yào yī bēi shuǐ."
-  },
-  {
-    "zh": "孩子们都在玩。",
-    "vi": "Những đứa trẻ đang chơi.",
-    "pinyin": "Háizimen dōu zài wán."
-  },
-  {
-    "zh": "这道菜很好吃。",
-    "vi": "Món ăn này rất ngon.",
-    "pinyin": "Zhè dào cài hěn hǎo chī."
-  },
-  {
-    "zh": "你的手机号是多少？",
-    "vi": "Số điện thoại của bạn là bao nhiêu?",
-    "pinyin": "Nǐ de shǒujī hào shì duōshǎo?"
-  },
-  {
-    "zh": "我的车是黑色的。",
-    "vi": "Xe của tôi màu đen.",
-    "pinyin": "Wǒ de chē shì hēisè de."
-  },
-  {
-    "zh": "她喜欢红色的衣服。",
-    "vi": "Cô ấy thích quần áo màu đỏ.",
-    "pinyin": "Tā xǐhuān hóngsè de yīfú."
-  },
-  {
-    "zh": "欢迎你来我家。",
-    "vi": "Chào mừng bạn đến nhà tôi.",
-    "pinyin": "Huānyíng nǐ lái wǒ jiā."
-  },
-  {
-    "zh": "请回答我的问题。",
-    "vi": "Xin trả lời câu hỏi của tôi.",
-    "pinyin": "Qǐng huídá wǒ de wèntí."
-  },
-  {
-    "zh": "机场离这里很近。",
-    "vi": "Sân bay gần đây.",
-    "pinyin": "Jīchǎng lí zhèlǐ hěn jìn."
-  },
-  {
-    "zh": "我喜欢吃鸡蛋。",
-    "vi": "Tôi thích ăn trứng.",
-    "pinyin": "Wǒ xǐhuān chī jīdàn."
-  },
-  {
-    "zh": "这件衣服很好看。",
-    "vi": "Cái áo này rất đẹp.",
-    "pinyin": "Zhè jiàn yīfú hěn hǎokàn."
-  },
-  {
-    "zh": "学生们在教室里学习。",
-    "vi": "Học sinh đang học trong lớp học.",
-    "pinyin": "Xuéshēngmen zài jiàoshì lǐ xuéxí."
-  },
-  {
-    "zh": "姐姐比我大三岁。",
-    "vi": "Chị gái lớn hơn tôi ba tuổi.",
-    "pinyin": "Jiějiě bǐ wǒ dà sān suì."
-  },
-  {
-    "zh": "请介绍一下你自己。",
-    "vi": "Xin hãy giới thiệu về bản thân.",
-    "pinyin": "Qǐng jièshào yīxià nǐ zìjǐ."
-  },
-  {
-    "zh": "请进，别客气。",
-    "vi": "Mời vào, đừng khách sáo.",
-    "pinyin": "Qǐng jìn, bié kèqì."
-  },
-  {
-    "zh": "学校离我家很近。",
-    "vi": "Trường học gần nhà tôi.",
-    "pinyin": "Xuéxiào lí wǒ jiā hěn jìn."
-  },
-  {
-    "zh": "他就住在我家旁边。",
-    "vi": "Anh ấy sống ngay cạnh nhà tôi.",
-    "pinyin": "Tā jiù zhù zài wǒ jiā pángbiān."
-  },
-  {
-    "zh": "我觉得今天很热。",
-    "vi": "Tôi cảm thấy hôm nay rất nóng.",
-    "pinyin": "Wǒ juéde jīntiān hěn rè."
-  },
-  {
-    "zh": "我每天早上喝咖啡。",
-    "vi": "Tôi uống cà phê mỗi sáng.",
-    "pinyin": "Wǒ měitiān zǎoshang hē kāfēi."
-  },
-  {
-    "zh": "我们现在开始上课。",
-    "vi": "Bây giờ chúng ta bắt đầu học.",
-    "pinyin": "Wǒmen xiànzài kāishǐ shàngkè."
-  },
-  {
-    "zh": "我准备好考试了。",
-    "vi": "Tôi đã chuẩn bị sẵn sàng cho kỳ thi.",
-    "pinyin": "Wǒ zhǔnbèi hǎo kǎoshì le."
-  },
-  {
-    "zh": "可能会下雨。",
-    "vi": "Có thể sẽ mưa.",
-    "pinyin": "Kěnéng huì xiàyǔ."
-  },
-  {
-    "zh": "你可以坐在这里。",
-    "vi": "Bạn có thể ngồi ở đây.",
-    "pinyin": "Nǐ kěyǐ zuò zài zhèlǐ."
-  },
-  {
-    "zh": "我们今天有三节课。",
-    "vi": "Hôm nay chúng ta có ba tiết học.",
-    "pinyin": "Wǒmen jīntiān yǒu sān jié kè."
-  },
-  {
-    "zh": "他跑得很快。",
-    "vi": "Anh ấy chạy rất nhanh.",
-    "pinyin": "Tā pǎo de hěn kuài."
-  },
-  {
-    "zh": "祝你生日快乐。",
-    "vi": "Chúc bạn sinh nhật vui vẻ.",
-    "pinyin": "Zhù nǐ shēngrì kuàilè."
-  },
-  {
-    "zh": "我累了，想休息一下。",
-    "vi": "Tôi mệt rồi, muốn nghỉ ngơi một chút.",
-    "pinyin": "Wǒ lèile, xiǎng xiūxí yīxià."
-  },
-  {
-    "zh": "学校离我家不远。",
-    "vi": "Trường học không xa nhà tôi.",
-    "pinyin": "Xuéxiào lí wǒ jiā bù yuǎn."
-  },
-  {
-    "zh": "我有两个弟弟。",
-    "vi": "Tôi có hai em trai.",
-    "pinyin": "Wǒ yǒu liǎng gè dìdì."
-  },
-  {
-    "zh": "这条路很长。",
-    "vi": "Con đường này rất dài.",
-    "pinyin": "Zhè tiáo lù hěn cháng."
-  },
-  {
-    "zh": "我喜欢旅游。",
-    "vi": "Tôi thích du lịch.",
-    "pinyin": "Wǒ xǐhuān lǚyóu."
-  },
-  {
-    "zh": "他在商店里卖东西。",
-    "vi": "Anh ấy bán hàng trong cửa hàng.",
-    "pinyin": "Tā zài shāngdiàn lǐ mài dōngxī."
-  },
-  {
-    "zh": "他走得很慢。",
-    "vi": "Anh ấy đi rất chậm.",
-    "pinyin": "Tā zǒu de hěn màn."
-  },
-  {
-    "zh": "我今天很忙。",
-    "vi": "Hôm nay tôi rất bận.",
-    "pinyin": "Wǒ jīntiān hěn máng."
-  },
-  {
-    "zh": "每个人都有机会。",
-    "vi": "Mỗi người đều có cơ hội.",
-    "pinyin": "Měi gèrén dōu yǒu jīhuì."
-  },
-  {
-    "zh": "妹妹在唱歌。",
-    "vi": "Em gái đang hát.",
-    "pinyin": "Mèimei zài chànggē."
-  },
-  {
-    "zh": "他站在门口。",
-    "vi": "Anh ấy đứng ở cửa.",
-    "pinyin": "Tā zhàn zài ménkǒu."
-  },
-  {
-    "zh": "那个男人很高。",
-    "vi": "Người đàn ông đó rất cao.",
-    "pinyin": "Nàgè nánrén hěn gāo."
-  },
-  {
-    "zh": "您好，请进。",
-    "vi": "Xin chào, mời vào.",
-    "pinyin": "Nín hǎo, qǐng jìn."
-  },
-  {
-    "zh": "我每天早上喝牛奶。",
-    "vi": "Tôi uống sữa mỗi sáng.",
-    "pinyin": "Wǒ měitiān zǎoshang hē niúnǎi."
-  },
-  {
-    "zh": "那个女人是我妈妈。",
-    "vi": "Người phụ nữ đó là mẹ tôi.",
-    "pinyin": "Nàgè nǚrén shì wǒ māma."
-  },
-  {
-    "zh": "学校在我家旁边。",
-    "vi": "Trường học ở cạnh nhà tôi.",
-    "pinyin": "Xuéxiào zài wǒ jiā pángbiān."
-  },
-  {
-    "zh": "我每天早上跑步。",
-    "vi": "Tôi chạy bộ mỗi sáng.",
-    "pinyin": "Wǒ měitiān zǎoshang pǎobù."
-  },
-  {
-    "zh": "这件衣服很便宜。",
-    "vi": "Cái áo này rất rẻ.",
-    "pinyin": "Zhè jiàn yīfú hěn piányí."
-  },
-  {
-    "zh": "我买了两张电影票。",
-    "vi": "Tôi đã mua hai vé xem phim.",
-    "pinyin": "Wǒ mǎile liǎng zhāng diànyǐng piào."
-  },
-  {
-    "zh": "这是我的妻子。",
-    "vi": "Đây là vợ tôi.",
-    "pinyin": "Zhè shì wǒ de qīzi."
-  },
-  {
-    "zh": "我每天六点起床。",
-    "vi": "Tôi thức dậy lúc sáu giờ mỗi ngày.",
-    "pinyin": "Wǒ měitiān liù diǎn qǐchuáng."
-  },
-  {
-    "zh": "我有一千块钱。",
-    "vi": "Tôi có một ngàn đồng.",
-    "pinyin": "Wǒ yǒu yīqiān kuài qián."
-  },
-  {
-    "zh": "今天是晴天。",
-    "vi": "Hôm nay trời nắng.",
-    "pinyin": "Jīntiān shì qíngtiān."
-  },
-  {
-    "zh": "我去年去了中国。",
-    "vi": "Năm ngoái tôi đã đi Trung Quốc.",
-    "pinyin": "Wǒ qùnián qùle Zhōngguó."
-  },
-  {
-    "zh": "请让他进来。",
-    "vi": "Xin hãy để anh ấy vào.",
-    "pinyin": "Qǐng ràng tā jìnlái."
-  },
-  {
-    "zh": "我每天八点上班。",
-    "vi": "Tôi đi làm lúc tám giờ mỗi ngày.",
-    "pinyin": "Wǒ měitiān bā diǎn shàngbān."
-  },
-  {
-    "zh": "你的身体怎么样？",
-    "vi": "Sức khỏe của bạn thế nào?",
-    "pinyin": "Nǐ de shēntǐ zěnme yàng?"
-  },
-  {
-    "zh": "他生病了，不能来上课。",
-    "vi": "Anh ấy bị ốm, không thể đến lớp.",
-    "pinyin": "Tā shēngbìng le, bùnéng lái shàngkè."
-  },
-  {
-    "zh": "今天是我的生日。",
-    "vi": "Hôm nay là sinh nhật của tôi.",
-    "pinyin": "Jīntiān shì wǒ de shēngrì."
-  },
-  {
-    "zh": "现在我没有时间。",
-    "vi": "Bây giờ tôi không có thời gian.",
-    "pinyin": "Xiànzài wǒ méiyǒu shíjiān."
-  },
-  {
-    "zh": "你在做什么事情？",
-    "vi": "Bạn đang làm việc gì vậy?",
-    "pinyin": "Nǐ zài zuò shénme shìqíng?"
-  },
-  {
-    "zh": "这块手表很贵。",
-    "vi": "Chiếc đồng hồ này rất đắt.",
-    "pinyin": "Zhè kuài shǒubiǎo hěn guì."
-  },
-  {
-    "zh": "我的手机没电了。",
-    "vi": "Điện thoại của tôi hết pin rồi.",
-    "pinyin": "Wǒ de shǒujī méi diàn le."
-  },
-  {
-    "zh": "我送你一本书。",
-    "vi": "Tôi tặng bạn một quyển sách.",
-    "pinyin": "Wǒ sòng nǐ yī běn shū."
-  },
-  {
-    "zh": "他很累，所以休息了。",
-    "vi": "Anh ấy rất mệt, nên đã nghỉ ngơi rồi.",
-    "pinyin": "Tā hěn lèi, suǒyǐ xiūxí le."
-  },
-  {
-    "zh": "它是一只可爱的小猫。",
-    "vi": "Nó là một chú mèo đáng yêu.",
-    "pinyin": "Tā shì yī zhī kě'ài de xiǎo māo."
-  },
-  {
-    "zh": "我们一起踢足球吧。",
-    "vi": "Chúng ta cùng chơi đá bóng nhé.",
-    "pinyin": "Wǒmen yīqǐ tī zúqiú ba."
-  },
-  {
-    "zh": "这道题很难。",
-    "vi": "Câu hỏi này rất khó.",
-    "pinyin": "Zhè dào tí hěn nán."
-  },
-  {
-    "zh": "我喜欢跳舞。",
-    "vi": "Tôi thích nhảy múa.",
-    "pinyin": "Wǒ xǐhuān tiàowǔ."
-  },
-  {
-    "zh": "他在外面等你。",
-    "vi": "Anh ấy đang đợi bạn ở bên ngoài.",
-    "pinyin": "Tā zài wàimiàn děng nǐ."
-  },
-  {
-    "zh": "小孩子们在玩游戏。",
-    "vi": "Các em nhỏ đang chơi trò chơi.",
-    "pinyin": "Xiǎo háizimen zài wán yóuxì."
-  },
-  {
-    "zh": "我已经做完了作业。",
-    "vi": "Tôi đã làm xong bài tập.",
-    "pinyin": "Wǒ yǐjīng zuò wán le zuòyè."
-  },
-  {
-    "zh": "我晚上九点睡觉。",
-    "vi": "Tôi đi ngủ lúc chín giờ tối.",
-    "pinyin": "Wǒ wǎnshàng jiǔ diǎn shuìjiào."
-  },
-  {
-    "zh": "你为什么不来？",
-    "vi": "Tại sao bạn không đến?",
-    "pinyin": "Nǐ wèishéme bù lái?"
-  },
-  {
-    "zh": "请问你叫什么名字？",
-    "vi": "Xin hỏi bạn tên là gì?",
-    "pinyin": "Qǐng wèn nǐ jiào shénme míngzì?"
-  },
-  {
-    "zh": "这个问题很重要。",
-    "vi": "Vấn đề này rất quan trọng.",
-    "pinyin": "Zhège wèntí hěn zhòngyào."
-  },
-  {
-    "zh": "我喜欢吃西瓜。",
-    "vi": "Tôi thích ăn dưa hấu.",
-    "pinyin": "Wǒ xǐhuān chī xīguā."
-  },
-  {
-    "zh": "我希望你能来。",
-    "vi": "Tôi hy vọng bạn có thể đến.",
-    "pinyin": "Wǒ xīwàng nǐ néng lái."
-  },
-  {
-    "zh": "请洗手。",
-    "vi": "Xin rửa tay.",
-    "pinyin": "Qǐng xǐ shǒu."
-  },
-  {
-    "zh": "向左走。",
-    "vi": "Đi về phía bên trái.",
-    "pinyin": "Xiàng zuǒ zǒu."
-  },
-  {
-    "zh": "我每天学习一个小时。",
-    "vi": "Tôi học một tiếng mỗi ngày.",
-    "pinyin": "Wǒ měitiān xuéxí yī gè xiǎoshí."
-  },
-  {
-    "zh": "他在笑什么？",
-    "vi": "Anh ấy đang cười gì vậy?",
-    "pinyin": "Tā zài xiào shénme?"
-  },
-  {
-    "zh": "我有一个新手机。",
-    "vi": "Tôi có một chiếc điện thoại mới.",
-    "pinyin": "Wǒ yǒu yī gè xīn shǒujī."
-  },
-  {
-    "zh": "你姓什么？",
-    "vi": "Họ của bạn là gì?",
-    "pinyin": "Nǐ xìng shénme?"
-  },
-  {
-    "zh": "我累了，需要休息。",
-    "vi": "Tôi mệt rồi, cần nghỉ ngơi.",
-    "pinyin": "Wǒ lèile, xūyào xiūxí."
-  },
-  {
-    "zh": "明天会下雪。",
-    "vi": "Ngày mai sẽ có tuyết rơi.",
-    "pinyin": "Míngtiān huì xià xuě."
-  },
-  {
-    "zh": "你喜欢什么颜色？",
-    "vi": "Bạn thích màu gì?",
-    "pinyin": "Nǐ xǐhuān shénme yánsè?"
-  },
-  {
-    "zh": "他的眼睛很大。",
-    "vi": "Mắt của anh ấy rất to.",
-    "pinyin": "Tā de yǎnjīng hěn dà."
-  },
-  {
-    "zh": "我喜欢吃羊肉。",
-    "vi": "Tôi thích ăn thịt cừu.",
-    "pinyin": "Wǒ xǐhuān chī yángròu."
-  },
-  {
-    "zh": "我要一杯水。",
-    "vi": "Tôi muốn một cốc nước.",
-    "pinyin": "Wǒ yào yī bēi shuǐ."
-  },
-  {
-    "zh": "我生病了，要吃药。",
-    "vi": "Tôi bị ốm, cần uống thuốc.",
-    "pinyin": "Wǒ shēngbìng le, yào chī yào."
-  },
-  {
-    "zh": "他也喜欢游泳。",
-    "vi": "Anh ấy cũng thích bơi lội.",
-    "pinyin": "Tā yě xǐhuān yóuyǒng."
-  },
-  {
-    "zh": "我已经吃过饭了。",
-    "vi": "Tôi đã ăn cơm rồi.",
-    "pinyin": "Wǒ yǐjīng chī guò fàn le."
-  },
-  {
-    "zh": "我们一起去看电影吧。",
-    "vi": "Chúng ta cùng đi xem phim nhé.",
-    "pinyin": "Wǒmen yīqǐ qù kàn diànyǐng ba."
-  },
-  {
-    "zh": "这是什么意思？",
-    "vi": "Điều này có nghĩa là gì?",
-    "pinyin": "Zhè shì shénme yìsi?"
-  },
-  {
-    "zh": "今天是阴天。",
-    "vi": "Hôm nay là ngày trời âm u.",
-    "pinyin": "Jīntiān shì yīntiān."
-  },
-  {
-    "zh": "因为下雨，我不去跑步。",
-    "vi": "Vì trời mưa, tôi không đi chạy bộ.",
-    "pinyin": "Yīnwèi xiàyǔ, wǒ bú qù pǎobù."
-  },
-  {
-    "zh": "我喜欢游泳。",
-    "vi": "Tôi thích bơi lội.",
-    "pinyin": "Wǒ xǐhuān yóuyǒng."
-  },
-  {
-    "zh": "他坐在我右边。",
-    "vi": "Anh ấy ngồi bên phải tôi.",
-    "pinyin": "Tā zuò zài wǒ yòubiān."
-  },
-  {
-    "zh": "我们晚饭吃鱼。",
-    "vi": "Chúng tôi ăn cá vào bữa tối.",
-    "pinyin": "Wǒmen wǎnfàn chī yú."
-  },
-  {
-    "zh": "这本书要十元。",
-    "vi": "Quyển sách này giá mười đồng.",
-    "pinyin": "Zhè běn shū yào shí yuán."
-  },
-  {
-    "zh": "他家离学校很远。",
-    "vi": "Nhà anh ấy cách xa trường học.",
-    "pinyin": "Tā jiā lí xuéxiào hěn yuǎn."
-  },
-  {
-    "zh": "我每天都运动。",
-    "vi": "Tôi tập thể dục mỗi ngày.",
-    "pinyin": "Wǒ měitiān dōu yùndòng."
-  },
-  {
-    "zh": "请再说一遍。",
-    "vi": "Xin hãy nói lại một lần nữa.",
-    "pinyin": "Qǐng zài shuō yī biàn."
-  },
-  {
-    "zh": "我每天早上六点起床。",
-    "vi": "Tôi dậy lúc sáu giờ sáng mỗi ngày.",
-    "pinyin": "Wǒ měitiān zǎoshang liù diǎn qǐchuáng."
-  },
-  {
-    "zh": "这是一张照片。",
-    "vi": "Đây là một tấm ảnh.",
-    "pinyin": "Zhè shì yī zhāng zhàopiàn."
-  },
-  {
-    "zh": "这是我的丈夫。",
-    "vi": "Đây là chồng tôi.",
-    "pinyin": "Zhè shì wǒ de zhàngfu."
-  },
-  {
-    "zh": "我在找我的钥匙。",
-    "vi": "Tôi đang tìm chìa khóa của mình.",
-    "pinyin": "Wǒ zài zhǎo wǒ de yàoshi."
-  },
-  {
-    "zh": "他在吃着饭呢。",
-    "vi": "Anh ấy đang ăn cơm.",
-    "pinyin": "Tā zài chī zhe fàn ne."
-  },
-  {
-    "zh": "这个苹果真好吃。",
-    "vi": "Quả táo này thật ngon.",
-    "pinyin": "Zhège píngguǒ zhēn hǎochī."
-  },
-  {
-    "zh": "妈妈正在打电话。",
-    "vi": "Mẹ đang gọi điện thoại.",
-    "pinyin": "Māma zhèngzài dǎ diànhuà."
-  },
-  {
-    "zh": "我知道他是谁。",
-    "vi": "Tôi biết anh ấy là ai.",
-    "pinyin": "Wǒ zhīdào tā shì shéi."
-  },
-  {
-    "zh": "我正在准备考试。",
-    "vi": "Tôi đang chuẩn bị cho kỳ thi.",
-    "pinyin": "Wǒ zhèngzài zhǔnbèi kǎoshì."
-  },
-  {
-    "zh": "他骑自行车去上班。",
-    "vi": "Anh ấy đi làm bằng xe đạp.",
-    "pinyin": "Tā qí zìxíngchē qù shàngbān."
-  },
-  {
-    "zh": "我们一起走吧。",
-    "vi": "Chúng ta cùng đi nhé.",
-    "pinyin": "Wǒmen yīqǐ zǒu ba."
-  },
-  {
-    "zh": "这是我最喜欢的书。",
-    "vi": "Đây là cuốn sách tôi thích nhất.",
-    "pinyin": "Zhè shì wǒ zuì xǐhuān de shū."
-  },
-  {
-    "zh": "他坐在我左边。",
-    "vi": "Anh ấy ngồi bên trái tôi.",
-    "pinyin": "Tā zuò zài wǒ zuǒbiān."
-  }
+  { "zh": "啊", "vi": "a, à, á", "pinyin": "Ā" },
+  { "zh": "愛", "vi": "yêu, thích", "pinyin": "Ài" },
+  { "zh": "安靜", "vi": "yên tĩnh", "pinyin": "Ānjìng" },
+  { "zh": "吧", "vi": "nhé, hả?", "pinyin": "Ba" },
+  { "zh": "八", "vi": "tám", "pinyin": "Bā" },
+  { "zh": "把", "vi": "trợ từ xử lý, cái (dao, dù…)", "pinyin": "Bǎ" },
+  { "zh": "爸爸", "vi": "cha", "pinyin": "Bàba" },
+  { "zh": "百", "vi": "trăm", "pinyin": "Bǎi" },
+  { "zh": "百貨公司", "vi": "Công ty bách hóa, TTTM", "pinyin": "Bǎihuògōngsī" },
+  { "zh": "白色", "vi": "màu trắng", "pinyin": "Báisè" },
+  { "zh": "班", "vi": "Chuyến (xe, máy bay)", "pinyin": "Bān" },
+  { "zh": "班", "vi": "lớp", "pinyin": "Bān" },
+  { "zh": "搬", "vi": "dời", "pinyin": "Bān" },
+  { "zh": "半", "vi": "nửa, rưỡi", "pinyin": "Bàn" },
+  { "zh": "幫", "vi": "giúp", "pinyin": "Bāng" },
+  { "zh": "辦公室", "vi": "văn phòng", "pinyin": "Bàngōngshì" },
+  { "zh": "棒球", "vi": "bóng chày", "pinyin": "Bàngqiú" },
+  { "zh": "包子", "vi": "bánh bao", "pinyin": "Bāozi" },
+  { "zh": "報紙", "vi": "báo", "pinyin": "Bàozhǐ" },
+  { "zh": "杯", "vi": "ly", "pinyin": "Bēi" },
+  { "zh": "被", "vi": "bị, được", "pinyin": "Bèi" },
+  { "zh": "北邊", "vi": "hướng Bắc", "pinyin": "Běi biān" },
+  { "zh": "杯子", "vi": "cái ly", "pinyin": "Bēizi" },
+  { "zh": "本", "vi": "cuốn", "pinyin": "Běn" },
+  { "zh": "本子", "vi": "tập", "pinyin": "Běnzi" },
+  { "zh": "比", "vi": "so sánh", "pinyin": "Bǐ" },
+  { "zh": "筆", "vi": "bút, viết", "pinyin": "Bǐ" },
+  { "zh": "別的", "vi": "cái khác", "pinyin": "Biéde" },
+  { "zh": "比較", "vi": "khá là, …hơn", "pinyin": "Bǐjiào" },
+  { "zh": "比賽", "vi": "trận đấu", "pinyin": "Bǐsài" },
+  { "zh": "比賽", "vi": "thi đấu", "pinyin": "Bǐsài" },
+  { "zh": "不客氣", "vi": "đừng khách sáo", "pinyin": "Búkèqì" },
+  { "zh": "不", "vi": "đừng", "pinyin": "Bù" },
+  { "zh": "不好意思", "vi": "ngại", "pinyin": "Bùhǎoyìsi" },
+  { "zh": "才", "vi": "mới (sớm)", "pinyin": "Cái" },
+  { "zh": "菜", "vi": "món ăn, rau", "pinyin": "Cài" },
+  { "zh": "參加", "vi": "tham gia", "pinyin": "Cānjiā" },
+  { "zh": "餐廳", "vi": "nhà hàng", "pinyin": "Cāntīng" },
+  { "zh": "茶", "vi": "trà", "pinyin": "Chá" },
+  { "zh": "長", "vi": "dài", "pinyin": "Cháng" },
+  { "zh": "常常", "vi": "thường", "pinyin": "Chángcháng" },
+  { "zh": "唱歌", "vi": "ca hát", "pinyin": "Chànggē" },
+  { "zh": "吵", "vi": "ồn, làm ồn", "pinyin": "Chǎo" },
+  { "zh": "車(子)", "vi": "xe", "pinyin": "Chē (zi)" },
+    { "zh": "車站", "vi": "trạm xe", "pinyin": "Chēzhàn" },
+    { "zh": "成績", "vi": "thành tích", "pinyin": "Chéngjī" },
+    { "zh": "吃", "vi": "ăn", "pinyin": "Chī" },
+    { "zh": "吃飽", "vi": "ăn no", "pinyin": "Chībǎo" },
+    { "zh": "吃飯", "vi": "ăn cơm", "pinyin": "Chīfàn" },
+    { "zh": "穿", "vi": "mặc", "pinyin": "Chuān" },
+    { "zh": "船", "vi": "thuyền", "pinyin": "Chuán" },
+    { "zh": "窗", "vi": "cửa sổ", "pinyin": "Chuāng" },
+    { "zh": "床", "vi": "giường", "pinyin": "Chuáng" },
+    { "zh": "廚房", "vi": "nhà bếp", "pinyin": "Chúfáng" },
+    { "zh": "出國", "vi": "đi nước ngoài", "pinyin": "Chūguó" },
+    { "zh": "出來", "vi": "ra", "pinyin": "Chūlái" },
+    { "zh": "出去", "vi": "đi ra", "pinyin": "Chūqù" },
+    { "zh": "春天", "vi": "mùa xuân", "pinyin": "Chūntiān" },
+    { "zh": "次", "vi": "lần", "pinyin": "Cì" },
+    { "zh": "從", "vi": "từ", "pinyin": "Cóng" },
+    { "zh": "錯", "vi": "sai, nhầm", "pinyin": "Cuò" },
+    { "zh": "打", "vi": "đánh", "pinyin": "Dǎ" },
+    { "zh": "打電話", "vi": "gọi điện thoại", "pinyin": "Dǎdiànhuà" },
+    { "zh": "打開", "vi": "mở ra", "pinyin": "Dǎkāi" },
+    { "zh": "大", "vi": "lớn", "pinyin": "Dà" },
+    { "zh": "大家", "vi": "mọi người", "pinyin": "Dàjiā" },
+    { "zh": "大樓", "vi": "nhà lầu", "pinyin": "Dàlóu" },
+    { "zh": "蛋糕", "vi": "bánh kem", "pinyin": "Dàngāo" },
+    { "zh": "當然", "vi": "đương nhiên", "pinyin": "Dāngrán" },
+    { "zh": "到", "vi": "đến, tới", "pinyin": "Dào" },
+    { "zh": "大學", "vi": "đại học", "pinyin": "Dàxué" },
+    { "zh": "的", "vi": "trợ từ sở hữu, nhấn mạnh", "pinyin": "De" },
+    { "zh": "得", "vi": "trợ từ bổ ngữ trình độ", "pinyin": "De" },
+    { "zh": "等", "vi": "chờ, đợi", "pinyin": "Děng" },
+    { "zh": "第", "vi": "thứ tự", "pinyin": "Dì" },
+    { "zh": "點(鐘)", "vi": "giờ (o'clock)", "pinyin": "Diǎn (zhōng)" },
+    { "zh": "電話", "vi": "điện thoại", "pinyin": "Diànhuà" },
+    { "zh": "電腦", "vi": "máy vi tính", "pinyin": "Diànnǎo" },
+    { "zh": "電視(機)", "vi": "Tivi", "pinyin": "Diànshì (jī)" },
+    { "zh": "電影", "vi": "phim", "pinyin": "Diànyǐng" },
+    { "zh": "電影院", "vi": "rạp chiếu phim", "pinyin": "Diànyǐngyuàn" },
+    { "zh": "弟弟", "vi": "em trai", "pinyin": "Dìdi" },
+    { "zh": "地方", "vi": "nơi", "pinyin": "Dìfāng" },
+    { "zh": "地上", "vi": "dưới đất, trên mặt đất", "pinyin": "Dìshàng" },
+    { "zh": "地圖", "vi": "bản đồ", "pinyin": "Dìtú" },
+    { "zh": "東邊", "vi": "hướng Đông", "pinyin": "Dōngbiān" },
+    { "zh": "冬天", "vi": "mùa đông", "pinyin": "Dōngtiān" },
+    { "zh": "東西", "vi": "đồ", "pinyin": "Dōngxī" },
+    { "zh": "懂", "vi": "hiểu", "pinyin": "Dǒng" },
+    { "zh": "都", "vi": "đều", "pinyin": "Dōu" },
+    { "zh": "對", "vi": "đúng, đối với", "pinyin": "Duì" },
+  { "zh": "對不起", "vi": "xin lỗi", "pinyin": "Duìbùqǐ" },
+  { "zh": "對面", "vi": "đối diện", "pinyin": "Duìmiàn" },
+  { "zh": "多", "vi": "nhiều lên", "pinyin": "Duō" },
+  { "zh": "多", "vi": "nhiều", "pinyin": "Duō" },
+  { "zh": "多少", "vi": "bao nhiêu", "pinyin": "Duōshǎo" },
+  { "zh": "肚子", "vi": "bụng", "pinyin": "Dùzǐ" },
+  { "zh": "餓", "vi": "đói", "pinyin": "È" },
+  { "zh": "二", "vi": "hai", "pinyin": "Èr" },
+  { "zh": "兒子", "vi": "con trai (của ai)", "pinyin": "Érzi" },
+  { "zh": "飯", "vi": "cơm, bữa ăn", "pinyin": "Fàn" },
+  { "zh": "放", "vi": "để, đặt", "pinyin": "Fàng" },
+  { "zh": "方便", "vi": "tiện lợi", "pinyin": "Fāngbiàn" },
+  { "zh": "房間", "vi": "phòng", "pinyin": "Fángjiān" },
+  { "zh": "房子", "vi": "nhà", "pinyin": "Fángzi" },
+  { "zh": "非常", "vi": "vô cùng", "pinyin": "Fēicháng" },
+  { "zh": "飛機", "vi": "máy bay", "pinyin": "Fēijī" },
+  { "zh": "機場", "vi": "sân bay", "pinyin": "Jīchǎng" },
+  { "zh": "分鐘", "vi": "phút", "pinyin": "Fēnzhōng" },
+  { "zh": "封", "vi": "bức (thư)", "pinyin": "Fēng" },
+  { "zh": "風", "vi": "gió", "pinyin": "Fēng" },
+  { "zh": "風景", "vi": "phong cảnh", "pinyin": "Fēngjǐng" },
+  { "zh": "附近", "vi": "gần đây, ở gần", "pinyin": "Fùjìn" },
+  { "zh": "乾淨", "vi": "sạch sẽ", "pinyin": "Gānjìng" },
+  { "zh": "感冒", "vi": "cảm", "pinyin": "Gǎnmào" },
+  { "zh": "高", "vi": "cao", "pinyin": "Gāo" },
+  { "zh": "高興", "vi": "vui", "pinyin": "Gāoxìng" },
+  { "zh": "告訴", "vi": "nói cho biết", "pinyin": "Gàosù" },
+  { "zh": "個", "vi": "lượng từ: cái, người…", "pinyin": "Gè" },
+  { "zh": "哥哥", "vi": "anh trai", "pinyin": "Gēge" },
+  { "zh": "給", "vi": "cho", "pinyin": "Gěi" },
+  { "zh": "跟", "vi": "cùng, và", "pinyin": "Gēn" },
+  { "zh": "更", "vi": "còn…hơn nữa", "pinyin": "Gèng" },
+  { "zh": "公共汽車", "vi": "xe buýt", "pinyin": "Gōnggòng qìchē" },
+  { "zh": "公車", "vi": "xe buýt", "pinyin": "Gōngchē" },
+  { "zh": "功課", "vi": "bài tập về nhà, học hành", "pinyin": "Gōngkè" },
+  { "zh": "公司", "vi": "công ty", "pinyin": "Gōngsī" },
+  { "zh": "公寓", "vi": "chung cư", "pinyin": "Gōngyù" },
+  { "zh": "公園", "vi": "công viên", "pinyin": "Gōngyuán" },
+  { "zh": "工作", "vi": "công việc", "pinyin": "Gōngzuò" },
+  { "zh": "狗", "vi": "chó", "pinyin": "Gǒu" },
+  { "zh": "關", "vi": "đóng", "pinyin": "Guān" },
+  { "zh": "貴", "vi": "mắc tiền", "pinyin": "Guì" },
+  { "zh": "過", "vi": "…qua", "pinyin": "Guò" },
+  { "zh": "過", "vi": "đi qua", "pinyin": "Guò" },
+  { "zh": "國家", "vi": "nước, đất nước", "pinyin": "Guójiā" },
+  { "zh": "孩子", "vi": "con, trẻ", "pinyin": "háizi" },
+  { "zh": "海邊", "vi": "bãi biển", "pinyin": "hǎibiān" },
+  { "zh": "還是", "vi": "hay là", "pinyin": "háishì" },
+  { "zh": "寒假", "vi": "nghỉ đông", "pinyin": "hánjià" },
+  { "zh": "好", "vi": "rất", "pinyin": "hǎo" },
+  { "zh": "好", "vi": "tốt", "pinyin": "hǎo" },
+  { "zh": "好吃", "vi": "ăn ngon", "pinyin": "hǎochī" },
+  { "zh": "好像", "vi": "hình như", "pinyin": "hǎoxiàng" },
+  { "zh": "好玩", "vi": "chơi vui", "pinyin": "hǎowán" },
+  { "zh": "號", "vi": "số, ngày", "pinyin": "hào" },
+  { "zh": "號碼", "vi": "số", "pinyin": "hàomǎ" },
+  { "zh": "喝", "vi": "uống", "pinyin": "hē" },
+  { "zh": "和", "vi": "và", "pinyin": "hé" },
+  { "zh": "很", "vi": "rất", "pinyin": "hěn" },
+  { "zh": "紅色", "vi": "màu đỏ", "pinyin": "hóngsè" },
+  { "zh": "後面", "vi": "phía sau", "pinyin": "hòumiàn" },
+  { "zh": "花(兒)", "vi": "bông hoa", "pinyin": "huā(er)" },
+  { "zh": "畫", "vi": "tranh", "pinyin": "huà" },
+  { "zh": "畫畫", "vi": "vẽ tranh", "pinyin": "huà huà" },
+  { "zh": "壞", "vi": "xấu, hư", "pinyin": "huài" },
+  { "zh": "換", "vi": "đổi", "pinyin": "huàn" },
+  { "zh": "黃色", "vi": "màu vàng", "pinyin": "huángsè" },
+  { "zh": "歡迎", "vi": "hoan nghênh", "pinyin": "huānyíng" },
+  { "zh": "華語/華文", "vi": "tiếng Hoa", "pinyin": "huáyǔ / huáwén" },
+  { "zh": "回家", "vi": "về nhà", "pinyin": "huíjiā" },
+  { "zh": "回來", "vi": "quay lại", "pinyin": "huílái" },
+  { "zh": "回去", "vi": "đi về", "pinyin": "huíqù" },
+  { "zh": "會", "vi": "biết, sẽ", "pinyin": "huì" },
+  { "zh": "活動", "vi": "hoạt động, chương trình", "pinyin": "huódòng" },
+  { "zh": "火車", "vi": "xe lửa", "pinyin": "huǒchē" },
+  { "zh": "幾", "vi": "mấy, vài", "pinyin": "jǐ" },
+  { "zh": "寄", "vi": "gửi", "pinyin": "jì" },
+  { "zh": "加", "vi": "thêm, cộng", "pinyin": "jiā" },
+  { "zh": "家", "vi": "nhà, gia đình", "pinyin": "jiā" },
+  { "zh": "家人", "vi": "người nhà", "pinyin": "jiārén" },
+  { "zh": "間", "vi": "căn (phòng)", "pinyin": "jiān" },
+  { "zh": "件", "vi": "chiếc (áo)", "pinyin": "jiàn" },
+  { "zh": "健康", "vi": "khỏe mạnh", "pinyin": "jiànkāng" },
+  { "zh": "見面", "vi": "gặp mặt", "pinyin": "jiànmiàn" },
+  { "zh": "腳", "vi": "chân", "pinyin": "jiǎo" },
+  { "zh": "腳踏車", "vi": "xe đạp", "pinyin": "jiǎotàchē" },
+  { "zh": "自行車", "vi": "xe đạp", "pinyin": "zìxíngchē" },
+  { "zh": "叫", "vi": "tên là, được gọi là", "pinyin": "jiào" },
+  { "zh": "教室", "vi": "phòng học", "pinyin": "jiàoshì" },
+  { "zh": "記得", "vi": "nhớ", "pinyin": "jìdé" },
+  { "zh": "接", "vi": "đón", "pinyin": "jiē" },
+  { "zh": "結束", "vi": "kết thúc", "pinyin": "jiéshù" },
+  { "zh": "介紹", "vi": "giới thiệu", "pinyin": "jièshào" },
+  { "zh": "今年", "vi": "năm nay", "pinyin": "jīnnián" },
+  { "zh": "今天", "vi": "hôm nay", "pinyin": "jīntiān" },
+  { "zh": "近", "vi": "gần", "pinyin": "jìn" },
+  { "zh": "進步", "vi": "tiến bộ", "pinyin": "jìnbù" },
+  { "zh": "進來", "vi": "đi vào", "pinyin": "jìnlái" },
+  { "zh": "進去", "vi": "đi vô", "pinyin": "jìnqù" },
+  { "zh": "九", "vi": "chín", "pinyin": "jiǔ" },
+  { "zh": "久", "vi": "lâu", "pinyin": "jiǔ" },
+  { "zh": "酒", "vi": "rượu", "pinyin": "jiǔ" },
+  { "zh": "就", "vi": "thì", "pinyin": "jiù" },
+  { "zh": "舊", "vi": "cũ", "pinyin": "jiù" },
+  { "zh": "覺得", "vi": "cảm thấy", "pinyin": "juéde" },
+  { "zh": "咖啡", "vi": "cà phê", "pinyin": "kāfēi" },
+  { "zh": "開", "vi": "lái, mở", "pinyin": "kāi" },
+  { "zh": "開車", "vi": "lái xe", "pinyin": "kāichē" },
+  { "zh": "開始", "vi": "bắt đầu", "pinyin": "kāishǐ" },
+  { "zh": "看", "vi": "xem", "pinyin": "kàn" },
+  { "zh": "考試", "vi": "kì thi", "pinyin": "kǎoshì" },
+  { "zh": "考試", "vi": "thi", "pinyin": "kǎoshì" },
+  { "zh": "卡片", "vi": "thiệp", "pinyin": "kǎpiàn" },
+  { "zh": "可樂", "vi": "coca", "pinyin": "kělè" },
+  { "zh": "可能", "vi": "có thể, có lẽ", "pinyin": "kěnéng" },
+  { "zh": "可是", "vi": "nhưng", "pinyin": "kěshì" },
+  { "zh": "可以", "vi": "có thể, được", "pinyin": "kěyǐ" },
+  { "zh": "課", "vi": "bài, khóa học", "pinyin": "kè" },
+  { "zh": "客廳", "vi": "phòng khách", "pinyin": "kètīng" },
+  { "zh": "褲子", "vi": "quần", "pinyin": "kùzi" },
+  { "zh": "快", "vi": "mau", "pinyin": "kuài" },
+  { "zh": "快", "vi": "nhanh", "pinyin": "kuài" },
+  { "zh": "塊", "vi": "đồng, cục, viên, miếng", "pinyin": "kuài" },
+  { "zh": "快樂", "vi": "vui vẻ", "pinyin": "kuàilè" },
+  { "zh": "來", "vi": "đến", "pinyin": "lái" },
+  { "zh": "籃球", "vi": "bóng rổ", "pinyin": "lánqiú" },
+  { "zh": "老師", "vi": "giáo viên", "pinyin": "lǎoshī" },
+  { "zh": "了", "vi": "…rồi", "pinyin": "le" },
+  { "zh": "了", "vi": "đã…", "pinyin": "le" },
+  { "zh": "累", "vi": "mệt", "pinyin": "lèi" },
+  { "zh": "冷", "vi": "lạnh", "pinyin": "lěng" },
+  { "zh": "冷氣(機)", "vi": "máy lạnh", "pinyin": "lěngqì(jī)" },
+  { "zh": "離", "vi": "cách", "pinyin": "lí" },
+  { "zh": "離開", "vi": "rời xa", "pinyin": "líkāi" },
+  { "zh": "裡面", "vi": "bên trong", "pinyin": "lǐmiàn" },
+  { "zh": "兩", "vi": "hai", "pinyin": "liǎng" },
+  { "zh": "六", "vi": "sáu", "pinyin": "liù" },
+  { "zh": "樓", "vi": "lầu", "pinyin": "lóu" },
+  { "zh": "樓上", "vi": "trên lầu", "pinyin": "lóushàng" },
+  { "zh": "樓下", "vi": "dưới lầu", "pinyin": "lóuxià" },
+  { "zh": "路", "vi": "đường, lộ", "pinyin": "lù" },
+  { "zh": "路口", "vi": "giao lộ", "pinyin": "lùkǒu" },
+  { "zh": "旅行", "vi": "du lịch", "pinyin": "lǚxíng" },
+  { "zh": "綠色", "vi": "màu xanh lá", "pinyin": "lǜsè" },
+  { "zh": "嗎", "vi": "trợ từ nghi vấn", "pinyin": "ma" },
+  { "zh": "媽媽", "vi": "mẹ", "pinyin": "māma" },
+  { "zh": "買", "vi": "mua", "pinyin": "mǎi" },
+  { "zh": "賣", "vi": "bán", "pinyin": "mài" },
+  { "zh": "忙", "vi": "bận", "pinyin": "máng" },
+  { "zh": "貓", "vi": "mèo", "pinyin": "māo" },
+  { "zh": "毛", "vi": "lông", "pinyin": "máo" },
+  { "zh": "每", "vi": "mỗi", "pinyin": "měi" },
+  { "zh": "美國", "vi": "nước Mỹ", "pinyin": "měiguó" },
+  { "zh": "沒", "vi": "đã không, không có", "pinyin": "méi" },
+  { "zh": "沒(有)", "vi": "không, không có", "pinyin": "méi(yǒu)" },
+  { "zh": "沒關係", "vi": "không sao", "pinyin": "méiguānxì" },
+  { "zh": "沒問題", "vi": "không vấn đề", "pinyin": "méiwèntí" },
+  { "zh": "妹妹", "vi": "em gái", "pinyin": "mèimei" },
+  { "zh": "門", "vi": "cửa", "pinyin": "mén" },
+  { "zh": "門口", "vi": "ngoài cửa", "pinyin": "ménkǒu" },
+  { "zh": "面", "vi": "mì", "pinyin": "miàn" },
+  { "zh": "麵包", "vi": "bánh mì", "pinyin": "miànbāo" },
+  { "zh": "明年", "vi": "năm tới", "pinyin": "míngnián" },
+  { "zh": "明天", "vi": "ngày mai", "pinyin": "míngtiān" },
+  { "zh": "名字", "vi": "tên", "pinyin": "míngzì" },
+  { "zh": "拿", "vi": "lấy", "pinyin": "ná" },
+  { "zh": "哪裡/兒", "vi": "đâu", "pinyin": "nǎlǐ/er" },
+  { "zh": "那裡/兒", "vi": "chỗ đó", "pinyin": "nàlǐ/er" },
+  { "zh": "那些", "vi": "những thứ đó", "pinyin": "nàxiē" },
+  { "zh": "難", "vi": "khó", "pinyin": "nán" },
+  { "zh": "南(邊)", "vi": "phía nam", "pinyin": "nán(biān)" },
+  { "zh": "男孩", "vi": "con trai, cậu bé", "pinyin": "nánhái" },
+  { "zh": "男生", "vi": "con trai", "pinyin": "nánshēng" },
+  { "zh": "呢", "vi": "trợ từ ngữ khí: thì sao? nè?", "pinyin": "ne" },
+  { "zh": "能", "vi": "có thể", "pinyin": "néng" },
+  { "zh": "你", "vi": "bạn", "pinyin": "nǐ" },
+  { "zh": "你們", "vi": "các bạn", "pinyin": "nǐmen" },
+  { "zh": "年", "vi": "năm", "pinyin": "nián" },
+  { "zh": "您", "vi": "ngài, ông, bà, anh, chị", "pinyin": "nín" },
+  { "zh": "牛奶", "vi": "sữa bò", "pinyin": "niúnǎi" },
+  { "zh": "女兒", "vi": "con gái (của ai)", "pinyin": "nǚér" },
+  { "zh": "女孩", "vi": "con gái, cô bé", "pinyin": "nǚhái" },
+  { "zh": "女生", "vi": "con gái", "pinyin": "nǚshēng" },
+  { "zh": "跑步", "vi": "chạy bộ", "pinyin": "pǎobù" },
+  { "zh": "朋友", "vi": "bạn bè", "pinyin": "péngyǒu" },
+  { "zh": "便宜", "vi": "rẻ tiền", "pinyin": "piányi" },
+  { "zh": "票", "vi": "vé", "pinyin": "piào" },
+  { "zh": "漂亮", "vi": "xinh đẹp", "pinyin": "piāoliàng" },
+  { "zh": "皮包", "vi": "túi xách", "pinyin": "píbāo" },
+  { "zh": "瓶", "vi": "chai", "pinyin": "píng" },
+  { "zh": "七", "vi": "7", "pinyin": "qī" },
+  { "zh": "騎", "vi": "chạy xe 2 bánh", "pinyin": "qí" },
+  { "zh": "千", "vi": "ngàn", "pinyin": "qiān" },
+  { "zh": "錢", "vi": "tiền", "pinyin": "qián" },
+  { "zh": "前面", "vi": "phía trước", "pinyin": "qiánmiàn" },
+  { "zh": "錢包", "vi": "ví tiền", "pinyin": "qiánbāo" },
+  { "zh": "起床", "vi": "thức dậy", "pinyin": "qǐchuáng" },
+  { "zh": "請", "vi": "mời, xin", "pinyin": "qǐng" },
+  { "zh": "請問", "vi": "xin hỏi", "pinyin": "qǐngwèn" },
+  { "zh": "球", "vi": "bóng, banh", "pinyin": "qiú" },
+  { "zh": "秋天", "vi": "mùa thu", "pinyin": "qiūtiān" },
+  { "zh": "去", "vi": "đi", "pinyin": "qù" },
+  { "zh": "去年", "vi": "năm ngoái", "pinyin": "qùnián" },
+  { "zh": "熱", "vi": "nóng", "pinyin": "rè" },
+  { "zh": "熱狗", "vi": "hotdog", "pinyin": "règǒu" },
+  { "zh": "熱鬧", "vi": "náo nhiệt", "pinyin": "rènào" },
+  { "zh": "人", "vi": "người", "pinyin": "rén" },
+  { "zh": "認識", "vi": "quen biết, nhận ra", "pinyin": "rènshi" },
+  { "zh": "日本", "vi": "Nhật bản", "pinyin": "rìběn" },
+  { "zh": "容易", "vi": "dễ", "pinyin": "róngyì" },
+  { "zh": "肉", "vi": "thịt", "pinyin": "ròu" },
+  { "zh": "三", "vi": "3", "pinyin": "sān" },
+  { "zh": "傘", "vi": "dù", "pinyin": "sǎn" },
+  { "zh": "山", "vi": "núi", "pinyin": "shān" },
+  { "zh": "上", "vi": "lên, trên", "pinyin": "shàng" },
+  { "zh": "上面", "vi": "phía trên", "pinyin": "shàng miàn" },
+  { "zh": "上班", "vi": "vào làm, đi làm", "pinyin": "shàngbān" },
+  { "zh": "商店", "vi": "cửa hàng", "pinyin": "shāngdiàn" },
+  { "zh": "上課", "vi": "lên lớp", "pinyin": "shàngkè" },
+  { "zh": "上網", "vi": "lên mạng", "pinyin": "shàngwǎng" },
+  { "zh": "上午", "vi": "buổi sáng", "pinyin": "shàngwǔ" },
+  { "zh": "少", "vi": "ít", "pinyin": "shǎo" },
+  { "zh": "誰", "vi": "ai", "pinyin": "shéi" },
+  { "zh": "生病", "vi": "bị bệnh", "pinyin": "shēngbìng" },
+  { "zh": "生日", "vi": "sinh nhật", "pinyin": "shēngrì" },
+  { "zh": "身體", "vi": "cơ thể, sức khỏe", "pinyin": "shēntǐ" },
+  { "zh": "什麼", "vi": "gì, cái gì", "pinyin": "shénme" },
+  { "zh": "十", "vi": "10", "pinyin": "shí" },
+  { "zh": "時候", "vi": "lúc, khi", "pinyin": "shíhòu" },
+  { "zh": "時間", "vi": "thời gian", "pinyin": "shíjiān" },
+  { "zh": "時鐘", "vi": "đồng hồ", "pinyin": "shízhōng" },
+  { "zh": "是", "vi": "là, phải", "pinyin": "shì" },
+  { "zh": "收到", "vi": "nhận được", "pinyin": "shōudào" },
+  { "zh": "手", "vi": "tay", "pinyin": "shǒu" },
+  { "zh": "手機", "vi": "điện thoại di động", "pinyin": "shǒujī" },
+  { "zh": "書", "vi": "sách", "pinyin": "shū" },
+  { "zh": "書包", "vi": "cặp đựng sách", "pinyin": "shūbāo" },
+  { "zh": "舒服", "vi": "dễ chịu", "pinyin": "shūfú" },
+  { "zh": "暑假", "vi": "nghỉ hè", "pinyin": "shǔjià" },
+  { "zh": "樹", "vi": "cây", "pinyin": "shù" },
+  { "zh": "雙", "vi": "đôi (giày, tay)", "pinyin": "shuāng" },
+  { "zh": "水", "vi": "nước", "pinyin": "shuǐ" },
+  { "zh": "水果", "vi": "trái cây", "pinyin": "shuǐguǒ" },
+  { "zh": "睡覺", "vi": "ngủ", "pinyin": "shuìjiào" },
+  { "zh": "說", "vi": "nói", "pinyin": "shuō" },
+  { "zh": "說話", "vi": "nói chuyện", "pinyin": "shuōhuà" },
+  { "zh": "四", "vi": "4", "pinyin": "sì" },
+  { "zh": "宿舍", "vi": "ký túc xá", "pinyin": "sùshè" },
+  { "zh": "歲", "vi": "tuổi", "pinyin": "suì" },
+  { "zh": "算", "vi": "tính", "pinyin": "suàn" },
+  { "zh": "送", "vi": "tặng, đưa tiễn", "pinyin": "sòng" },
+  { "zh": "所以", "vi": "cho nên", "pinyin": "suǒyǐ" },
+  { "zh": "他/她", "vi": "anh ấy, cô ấy", "pinyin": "tā/tā" },
+  { "zh": "他們/她們", "vi": "bọn họ", "pinyin": "tāmen/tāmen" },
+  { "zh": "太", "vi": "quá", "pinyin": "tài" },
+  { "zh": "太太", "vi": "bà, vợ", "pinyin": "tàitài" },
+  { "zh": "糖", "vi": "kẹo, đường", "pinyin": "táng" },
+  { "zh": "特別", "vi": "đặc biệt", "pinyin": "tèbié" },
+  { "zh": "踢", "vi": "đá", "pinyin": "tī" },
+  { "zh": "天", "vi": "ngày", "pinyin": "tiān" },
+  { "zh": "天", "vi": "ngày, trời", "pinyin": "tiān" },
+  { "zh": "天氣", "vi": "thời tiết", "pinyin": "tiānqì" },
+  { "zh": "跳舞", "vi": "nhảy múa", "pinyin": "tiàowǔ" },
+  { "zh": "聽", "vi": "nghe", "pinyin": "tīng" },
+  { "zh": "痛", "vi": "đau", "pinyin": "tòng" },
+  { "zh": "同學", "vi": "bạn học", "pinyin": "tóngxué" },
+  { "zh": "頭", "vi": "đầu", "pinyin": "tóu" },
+  { "zh": "圖片", "vi": "hình", "pinyin": "túpiàn" },
+  { "zh": "圖書館", "vi": "thư viện", "pinyin": "túshūguǎn" },
+  { "zh": "外面", "vi": "bên ngoài", "pinyin": "wàimiàn" },
+  { "zh": "完", "vi": "hết, xong", "pinyin": "wán" },
+  { "zh": "玩(兒)", "vi": "chơi", "pinyin": "wán(er)" },
+  { "zh": "碗", "vi": "cái chén, cái tô", "pinyin": "wǎn" },
+  { "zh": "碗", "vi": "chén, tô", "pinyin": "wǎn" },
+  { "zh": "晚安", "vi": "ngủ ngon", "pinyin": "wǎnān" },
+  { "zh": "晚餐/晚飯", "vi": "cơm tối", "pinyin": "wǎncān/wǎnfàn" },
+  { "zh": "晚上", "vi": "buổi tối", "pinyin": "wǎnshàng" },
+  { "zh": "往", "vi": "về phía, hướng về", "pinyin": "wǎng" },
+  { "zh": "網球", "vi": "tennis", "pinyin": "wǎngqiú" },
+  { "zh": "網站", "vi": "website, trang web", "pinyin": "wǎngzhàn" },
+  { "zh": "忘", "vi": "quên", "pinyin": "wàng" },
+  { "zh": "喂", "vi": "alo", "pinyin": "wéi" },
+  { "zh": "位", "vi": "vị (anh, chị, ông, bà)", "pinyin": "wèi" },
+  { "zh": "為什麼", "vi": "tại sao", "pinyin": "wèishénme" },
+  { "zh": "問", "vi": "hỏi", "pinyin": "wèn" },
+  { "zh": "問題", "vi": "vấn đề, câu hỏi", "pinyin": "wèntí" },
+  { "zh": "我", "vi": "tôi", "pinyin": "wǒ" },
+  { "zh": "我們", "vi": "chúng ta, chúng tôi", "pinyin": "wǒmen" },
+  { "zh": "五", "vi": "5", "pinyin": "wǔ" },
+  { "zh": "午餐/午飯", "vi": "cơm trưa", "pinyin": "wǔcān/wǔfàn" },
+  { "zh": "洗", "vi": "rửa, tắm", "pinyin": "xǐ" },
+  { "zh": "下", "vi": "xuống", "pinyin": "xià" },
+  { "zh": "西邊", "vi": "phía tây", "pinyin": "xībiān" },
+  { "zh": "下麵", "vi": "phía dưới", "pinyin": "xiàmiàn" },
+  { "zh": "下班", "vi": "tan ca", "pinyin": "xiàbān" },
+  { "zh": "下課", "vi": "tan học", "pinyin": "xiàkè" },
+  { "zh": "夏天", "vi": "mùa hè", "pinyin": "xiàtiān" },
+  { "zh": "下午", "vi": "buổi chiều", "pinyin": "xiàwǔ" },
+  { "zh": "下雨", "vi": "trời mưa", "pinyin": "xiàyǔ" },
+  { "zh": "先", "vi": "trước", "pinyin": "xiān" },
+  { "zh": "先生", "vi": "ông, anh, mr", "pinyin": "xiānshēng" },
+  { "zh": "現在", "vi": "bây giờ", "pinyin": "xiànzài" },
+  { "zh": "想", "vi": "nghĩ, nhớ", "pinyin": "xiǎng" },
+  { "zh": "像", "vi": "giống", "pinyin": "xiàng" },
+  { "zh": "小", "vi": "nhỏ", "pinyin": "xiǎo" },
+  { "zh": "小孩", "vi": "con, con nít", "pinyin": "xiǎohái" },
+  { "zh": "小姐", "vi": "cô, miss", "pinyin": "xiǎojiě" },
+  { "zh": "小時", "vi": "giờ, tiếng đồng hồ", "pinyin": "xiǎoshí" },
+  { "zh": "小心", "vi": "cẩn thận", "pinyin": "xiǎoxīn" },
+  { "zh": "鞋子", "vi": "giày", "pinyin": "xiézi" },
+  { "zh": "寫", "vi": "viết", "pinyin": "xiě" },
+  { "zh": "寫字", "vi": "viết chữ", "pinyin": "xiězì" },
+  { "zh": "謝謝", "vi": "cảm ơn", "pinyin": "xièxie" },
+  { "zh": "喜歡", "vi": "thích", "pinyin": "xǐhuān" },
+  { "zh": "洗手間", "vi": "nhà vệ sinh", "pinyin": "xǐshǒujiān" },
+  { "zh": "廁所", "vi": "nhà vệ sinh", "pinyin": "cèsuǒ" },
+  { "zh": "洗衣機", "vi": "máy giặt", "pinyin": "xǐyījī" },
+  { "zh": "洗澡", "vi": "tắm", "pinyin": "xǐzǎo" },
+  { "zh": "新", "vi": "mới", "pinyin": "xīn" },
+  { "zh": "新年", "vi": "năm mới", "pinyin": "xīnnián" },
+  { "zh": "信", "vi": "thư", "pinyin": "xìn" },
+  { "zh": "信封", "vi": "bìa thư", "pinyin": "xìnfēng" },
+  { "zh": "星期", "vi": "tuần", "pinyin": "xīngqí" },
+  { "zh": "星期天", "vi": "chủ nhật", "pinyin": "xīngqítiān" },
+  { "zh": "星期日", "vi": "chủ nhật", "pinyin": "xīngqírì" },
+  { "zh": "行", "vi": "ok, được", "pinyin": "xíng" },
+  { "zh": "姓", "vi": "họ", "pinyin": "xìng" },
+  { "zh": "休息", "vi": "nghỉ ngơi", "pinyin": "xiūxí" },
+  { "zh": "學", "vi": "học", "pinyin": "xué" },
+  { "zh": "學生", "vi": "học sinh", "pinyin": "xuéshēng" },
+  { "zh": "學校", "vi": "trường học", "pinyin": "xuéxiào" },
+  { "zh": "眼睛", "vi": "mắt", "pinyin": "yǎnjīng" },
+  { "zh": "要", "vi": "muốn, cần, phải, sẽ", "pinyin": "yào" },
+  { "zh": "藥", "vi": "thuốc", "pinyin": "yào" },
+  { "zh": "也", "vi": "cũng", "pinyin": "yě" },
+  { "zh": "一", "vi": "1", "pinyin": "yī" },
+  { "zh": "醫生", "vi": "bác sỹ", "pinyin": "yīshēng" },
+  { "zh": "一點兒", "vi": "một ít", "pinyin": "yìdiǎnr" },
+  { "zh": "一定", "vi": "nhất định", "pinyin": "yídìng" },
+  { "zh": "衣服", "vi": "quần áo", "pinyin": "yīfú" },
+  { "zh": "醫院", "vi": "bệnh viện", "pinyin": "yīyuàn" },
+  { "zh": "一共", "vi": "tổng cộng", "pinyin": "yígòng" },
+  { "zh": "以後", "vi": "sau này, sau khi", "pinyin": "yǐhòu" },
+  { "zh": "已經", "vi": "đã", "pinyin": "yǐjīng" },
+  { "zh": "以前", "vi": "trước đây, trước khi", "pinyin": "yǐqián" },
+  { "zh": "椅子", "vi": "ghế", "pinyin": "yǐzi" },
+  { "zh": "一起", "vi": "cùng nhau", "pinyin": "yìqǐ" },
+  { "zh": "一些", "vi": "một vài", "pinyin": "yìxiē" },
+  { "zh": "一樣", "vi": "giống nhau", "pinyin": "yíyàng" },
+  { "zh": "一直", "vi": "cứ, hoài, mãi", "pinyin": "yìzhí" },
+  { "zh": "意思", "vi": "ý nghĩa", "pinyin": "yìsī" },
+  { "zh": "銀行", "vi": "ngân hàng", "pinyin": "yínháng" },
+  { "zh": "因為", "vi": "bởi vì", "pinyin": "yīnwèi" },
+  { "zh": "音樂", "vi": "âm nhạc", "pinyin": "yīnyuè" },
+  { "zh": "英國", "vi": "Anh Quốc", "pinyin": "yīngguó" },
+  { "zh": "英文", "vi": "tiếng Anh", "pinyin": "yīngwén" },
+  { "zh": "郵局", "vi": "bưu điện", "pinyin": "yóujú" },
+  { "zh": "郵票", "vi": "tem thư", "pinyin": "yóupiào" },
+  { "zh": "游泳", "vi": "bơi", "pinyin": "yóuyǒng" },
+  { "zh": "游泳池", "vi": "hồ bơi", "pinyin": "yóuyǒngchí" },
+  { "zh": "有", "vi": "có", "pinyin": "yǒu" },
+  { "zh": "有點(兒)", "vi": "hơi hơi", "pinyin": "yǒudiǎn(er)" },
+  { "zh": "有空", "vi": "rảnh", "pinyin": "yǒukòng" },
+  { "zh": "有時候", "vi": "có khi, có lúc", "pinyin": "yǒushíhòu" },
+  { "zh": "有意思", "vi": "thú vị", "pinyin": "yǒuyìsī" },
+  { "zh": "又", "vi": "lại, nữa", "pinyin": "yòu" },
+  { "zh": "右邊", "vi": "bên phải", "pinyin": "yòubiān" },
+  { "zh": "用", "vi": "dùng, xài", "pinyin": "yòng" },
+  { "zh": "魚", "vi": "cá", "pinyin": "yú" },
+  { "zh": "元", "vi": "đồng (đơn vị tiền TQ)", "pinyin": "yuán" },
+  { "zh": "遠", "vi": "xa", "pinyin": "yuǎn" },
+  { "zh": "月", "vi": "tháng", "pinyin": "yuè" },
+  { "zh": "運動", "vi": "vận động, thể thao", "pinyin": "yùndòng" },
+  { "zh": "運動", "vi": "vận động, tập thể dục", "pinyin": "yùndòng" },
+  { "zh": "雨天", "vi": "ngày mưa", "pinyin": "yǔtiān" },
+  { "zh": "再", "vi": "thêm, tiếp", "pinyin": "zài" },
+  { "zh": "在", "vi": "đang", "pinyin": "zài" },
+  { "zh": "在", "vi": "ở, lúc", "pinyin": "zài" },
+  { "zh": "再見", "vi": "tạm biệt", "pinyin": "zàijiàn" },
+  { "zh": "早", "vi": "sớm", "pinyin": "zǎo" },
+  { "zh": "早餐", "vi": "cơm sáng", "pinyin": "zǎocān" },
+  { "zh": "早飯", "vi": "cơm sáng", "pinyin": "zǎofàn" },
+  { "zh": "早上", "vi": "buổi sáng", "pinyin": "zǎoshàng" },
+  { "zh": "怎麼", "vi": "sao?", "pinyin": "zěnme" },
+  { "zh": "怎麼辦", "vi": "làm sao? Tính sao?", "pinyin": "zěnme bàn" },
+  { "zh": "怎麼了", "vi": "bị sao rồi?", "pinyin": "zěnme le" },
+  { "zh": "怎麼樣", "vi": "như thế nào?", "pinyin": "zěnmeyàng" },
+  { "zh": "站", "vi": "trạm, bến", "pinyin": "zhàn" },
+  { "zh": "站", "vi": "đứng", "pinyin": "zhàn" },
+  { "zh": "張", "vi": "tờ, tấm", "pinyin": "zhāng" },
+  { "zh": "找", "vi": "tìm", "pinyin": "zhǎo" },
+  { "zh": "找到", "vi": "tìm được", "pinyin": "zhǎodào" },
+  { "zh": "照片", "vi": "hình chụp", "pinyin": "zhàopiàn" },
+  { "zh": "照相", "vi": "chụp hình", "pinyin": "zhàoxiàng" },
+  { "zh": "照相機", "vi": "máy ảnh", "pinyin": "zhàoxiàngjī" },
+  { "zh": "這裡/兒", "vi": "chỗ này", "pinyin": "zhèlǐ/er" },
+  { "zh": "這些", "vi": "những thứ này", "pinyin": "zhèxiē" },
+  { "zh": "紙", "vi": "giấy", "pinyin": "zhǐ" },
+  { "zh": "枝", "vi": "cây (viết)", "pinyin": "zhī" },
+  { "zh": "只", "vi": "con (chó, mèo)", "pinyin": "zhī" },
+  { "zh": "知道", "vi": "biết", "pinyin": "zhīdào" },
+  { "zh": "中國", "vi": "Trung Quốc", "pinyin": "zhōngguó" },
+  { "zh": "中文", "vi": "tiếng Trung", "pinyin": "zhōngwén" },
+  { "zh": "中午", "vi": "buổi trưa", "pinyin": "zhōngwǔ" },
+  { "zh": "重要", "vi": "quan trọng", "pinyin": "zhòngyào" },
+  { "zh": "週末", "vi": "cuối tuần", "pinyin": "zhōumò" },
+  { "zh": "住", "vi": "sống, ở", "pinyin": "zhù" },
+  { "zh": "桌子", "vi": "cái bàn", "pinyin": "zhuōzi" },
+  { "zh": "自己", "vi": "tự mình", "pinyin": "zìjǐ" },
+  { "zh": "姊姊/姐姐", "vi": "chị gái", "pinyin": "jiějie" },
+  { "zh": "走", "vi": "đi", "pinyin": "zǒu" },
+  { "zh": "走路", "vi": "đi bộ", "pinyin": "zǒulù" },
+  { "zh": "足球", "vi": "bóng đá", "pinyin": "zúqiú" },
+  { "zh": "最", "vi": "nhất", "pinyin": "zuì" },
+  { "zh": "最近", "vi": "dạo này, gần nhất", "pinyin": "zuìjìn" },
+  { "zh": "昨天", "vi": "hôm qua", "pinyin": "zuótiān" },
+  { "zh": "左(邊)", "vi": "bên trái", "pinyin": "zuǒbiān" },
+  { "zh": "坐", "vi": "ngồi", "pinyin": "zuò" },
+  { "zh": "做", "vi": "làm", "pinyin": "zuò" },
+  { "zh": "做飯", "vi": "làm cơm", "pinyin": "zuòfàn" },
+  { "zh": "做完", "vi": "làm xong", "pinyin": "zuòwán" }
 ]
